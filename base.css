@@ -1,3 +1,7 @@
+@import url(./css/banner-home.css);
+@import url(./css/menu-home.css);
+@import url(./css/produtos-home.css);
+
 :root{
     --fonte-padrao: 'Raleway', sans-serif;
     --cinza-claro: #F5F5F5;
