@@ -1,0 +1,93 @@
+.menu{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;  
+    padding-bottom: 2rem;
+}
+
+.menu__logo-pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.menu__logo{
+    margin-right: 2rem;
+}
+
+.menu__pesquisa{
+    width: 350px;
+    background-color: var(--cinza-claro);
+    border: 0 solid var(--cinza-claro);
+    border-radius: 20px;
+    padding: 0.75rem;
+}
+
+.menu__pesquisa::placeholder{
+    font-family: var(--fonte-padrao);
+    color: #A2A2A2;
+    background: url(../img/pesquisa.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.menu__login{
+    color: var(--azul-padrao);
+    font-family: var(--fonte-padrao);
+    padding: 0.75rem 3.5rem;
+    background-color: transparent;
+    border: 1px solid var(--azul-padrao);
+}
+
+.menu__login-pesquisa{
+    display: none;
+    background-image: url(../img/pesquisa.svg);
+    width: 3rem;
+    height: 3rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: transparent;
+    border: none;
+    margin-left: 1rem;
+}
+
+
+/* Responsivo para Tablet */
+
+@media screen and (max-width: 1024px) {
+    .menu__pesquisa{
+        width: 30vw;
+    }
+    
+}
+
+/* Responsivo para mobile */
+@media screen and (max-width: 768px) {
+    .container{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .menu__pesquisa{
+        display: none;
+    }
+
+    .menu{
+        justify-content: left;
+    }
+
+    .menu__login{
+        padding: 0.75rem 2rem;
+    }
+
+    .menu__login-pesquisa{
+        display: initial;
+        position: absolute;
+        right: 1rem;
+    }
+
+    
+}
+
+

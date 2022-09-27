@@ -1,0 +1,16 @@
+:root{
+    --fonte-padrao: 'Raleway', sans-serif;
+    --cinza-claro: #F5F5F5;
+    --branco: #FFFFFF;
+    --azul-padrao: #2A7AE4;
+}
+
+body{
+    font-family: var(--fonte-padrao);
+    font-size: 16px;
+}
+
+.container{
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
