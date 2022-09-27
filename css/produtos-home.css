@@ -10,3 +10,8 @@
     grid-template-rows: 100%;
     height: 25vh;
 }
+
+.produtos__card{
+    background-color: yellow;
+    margin: 1rem;
+}
