@@ -1,5 +1,4 @@
 .menu{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,17 +37,17 @@
     padding: 0.75rem 3.5rem;
     background-color: transparent;
     border: 1px solid var(--azul-padrao);
+    text-decoration: none;
+}
+
+.menu__login:hover{
+    background-color: var(--azul-padrao);
+    color: var(--branco);
+    transition: 0.3s;
 }
 
 .menu__login-pesquisa{
     display: none;
-    background-image: url(../img/pesquisa.svg);
-    width: 5rem;
-    height: 5rem;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: transparent;
-    border: none;
     margin-left: 1rem;
 }
 
@@ -58,6 +57,10 @@
 @media screen and (max-width: 1024px) {
     .menu__pesquisa{
         width: 30vw;
+    }
+
+    .menu__logo{
+        width: 100px;
     }
     
 }
@@ -84,7 +87,7 @@
     }
 
     .menu__logo{
-        margin-right: 1rem;
+        margin-right: 2rem;
     }
 
     
