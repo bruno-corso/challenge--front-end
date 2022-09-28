@@ -43,8 +43,8 @@
 .menu__login-pesquisa{
     display: none;
     background-image: url(../img/pesquisa.svg);
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
     background-repeat: no-repeat;
     background-position: right;
     background-color: transparent;

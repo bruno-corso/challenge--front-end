@@ -31,7 +31,7 @@
 .produtos__card{
     display: flex;
     flex-direction: column;
-    flex-shrink: 1;
+    margin-right: 0.5rem;
 }
 
 .produtos__card:last-child{
@@ -58,6 +58,17 @@
     background-color: transparent;
     border: 0;
     padding-left: 0;
+}
+
+/* Responsivo para Monitores Menores */
+@media screen and (max-width: 1200px){
+    .produtos__card:nth-last-child(-n+1){
+        display: none;
+    }
+    .container{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
 }
 
 /* Responsivo para Tablet */
