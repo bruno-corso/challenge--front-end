@@ -1,0 +1,19 @@
+.produtos__cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.produtos__itens{
+    display: grid;
+    grid-template-columns: 16% 16% 16% 16% 16% 16%;
+    grid-template-rows: 100%;
+    height: 25vh;
+    grid-template-areas: "card card card card card card";
+}
+
+.produtos__card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1rem;
+}

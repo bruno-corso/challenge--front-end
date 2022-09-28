@@ -64,11 +64,7 @@
 
 /* Responsivo para mobile */
 @media screen and (max-width: 768px) {
-    .container{
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-
+    
     .menu__pesquisa{
         display: none;
     }
