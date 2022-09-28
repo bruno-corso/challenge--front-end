@@ -1,0 +1,7 @@
+.banner{
+    display: flex;
+    background-image: url(../img/Hero@3x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
