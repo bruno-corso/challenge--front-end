@@ -2,6 +2,7 @@
     background-image: url(../img/banner-image.png);
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
     padding-top: 150px;
     padding-bottom: 32px;

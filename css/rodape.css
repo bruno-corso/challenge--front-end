@@ -1,0 +1,121 @@
+.rodapeFixo{
+    text-align: center;
+    padding: 2rem;
+}
+
+.rodape{
+    background-color: var(--azul-claro);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.rodape__logolista{
+    display: flex;
+    align-items: flex-start;
+}
+
+.rodape__item{
+    margin-bottom: 24px;
+}
+
+.rodape__item:last-child{
+    margin-bottom: 0;
+}
+
+.rodape__link{
+    text-decoration: none;
+    color: var(--cinza-escuro);
+}
+
+.rodape__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rodape__form--label{
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+.rodape__form--nome{
+    padding: 1rem 0.5rem;
+    margin: 1rem 0;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    border: 0;
+    border-bottom: 1px solid var(--cinza);
+    width: 90%;
+}
+
+.rodape__form--msg{
+    padding: 1rem 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    border: 0;
+    border-bottom: 1px solid var(--cinza);
+    width: 90%;
+}
+
+.rodape__form--msg::placeholder, .rodape__form--nome::placeholder{
+    font-family: var(--fonte-padrao);
+    color: #A2A2A2;
+}
+
+.rodape__form--botao{
+    color: var(--branco);
+    background-color: var(--azul-padrao);
+    padding: 0.75rem;
+    border: 0;
+    width: inherit;
+}
+
+    /* Responsivo para Tablet */
+
+@media screen and (max-width: 1024px) {
+    .rodape__logolista{
+        flex-direction: column;
+    }
+
+    .rodape__logo{
+        margin-bottom: 2rem;
+        margin-right: 3rem;
+    }
+
+    .rodape__form--msg{
+        width: 90%;
+    }
+
+    .rodape__form--nome{
+        width: 90%;
+    }
+    
+}
+
+/* Responsivo para mobile */
+@media screen and (max-width: 768px) {
+
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape__logolista{
+        flex-direction: column;
+        margin-bottom: 3rem;
+        align-items: center;
+    }
+
+    .rodape__item{
+        text-align: center;
+    }
+
+    .rodape__logo{
+        margin-right: 0;
+    }
+}
+

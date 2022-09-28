@@ -79,7 +79,7 @@
 }
 
 /* Responsivo para mobile */
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .produtos__card:nth-last-child(-n+2){
         display: none;
     }
@@ -87,6 +87,10 @@
     .produtos__itens{
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+
+    .produtos__card{
+        width: 42vw;
     }
 }
 
