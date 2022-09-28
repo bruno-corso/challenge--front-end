@@ -1,7 +1,31 @@
-
 .banner{
-    background-image: url(../img/hero.jpg);
-    width: 100vw;
+    background-image: url(../img/banner-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: auto;
-    
+    padding-top: 150px;
+    padding-bottom: 32px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%) url(../img/banner-image.png);
+    margin-bottom: 1rem;
+}
+
+.banner__titulo{
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.banner__subtitulo{
+    margin: 1rem 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.banner__botao{
+    color: var(--branco);
+    background-color: var(--azul-padrao);
+    padding: 0.75rem;
+    border: 0;
 }

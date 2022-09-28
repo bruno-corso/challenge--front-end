@@ -3,10 +3,11 @@
 @import url(./css/produtos-home.css);
 
 :root{
-    --fonte-padrao: 'Raleway', sans-serif;
+    --fonte-padrao: 'Raleway';
     --cinza-claro: #F5F5F5;
     --branco: #FFFFFF;
     --azul-padrao: #2A7AE4;
+    --cinza-escuro: #464646;
 }
 
 body{
