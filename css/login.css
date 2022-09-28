@@ -17,13 +17,35 @@
     border-bottom: 1px solid var(--cinza);
     padding: 1rem 0.5rem;
     margin-bottom: 1.25rem;
-    width: 30vw;
+    width: 25vw;
+}
+
+.login__email::placeholder, .login__senha::placeholder{
+    font-family: var(--fonte-padrao);
+    color: #a2a2a2;
 }
 
 .login__botao{
     color: var(--branco);
     background-color: var(--azul-padrao);
-    padding: 0.75rem;
+    padding: 0.75rem 0.5rem;
     border: 0;
-    width:30vw ;
+    width:25vw ;
+}
+
+/* Responsivo para Tablet */
+@media screen and (max-width: 1024px){
+   .login__email, .login__senha{
+    width: 275px;
+   }
+
+   .login__botao{
+    width: 110px;
+   }
+}
+
+/* Responsivo para mobile */
+@media screen and (max-width: 768px){
+    
+    
 }

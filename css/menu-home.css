@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding-top: 2rem;  
     padding-bottom: 2rem;
+    background-color: var(--branco);
 }
 
 .menu__logo-pesquisa{

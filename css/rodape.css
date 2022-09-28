@@ -1,6 +1,7 @@
 .rodapeFixo{
     text-align: center;
     padding: 2rem;
+    background-color: var(--branco);
 }
 
 .rodape{
@@ -10,6 +11,10 @@
     align-items: flex-start;
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.rodape__logo{
+    margin-right: 3rem;
 }
 
 .rodape__logolista{
