@@ -2,6 +2,7 @@
 @import url(./css/menu-home.css);
 @import url(./css/produtos-home.css);
 @import url(./css/rodape.css);
+@import url(./css/novo-produto.css);
 
 :root{
     --fonte-padrao: 'Raleway';
