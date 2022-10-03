@@ -119,7 +119,7 @@
 
     .produtos__itens{
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 0;
     }
 

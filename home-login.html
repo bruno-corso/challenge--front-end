@@ -29,7 +29,16 @@
             <label class="login__label"><b>Iniciar Sessão</b></label>
             <input class="login__email" type="email" placeholder="Escreva seu email" required>
             <input class="login__senha" type="password" placeholder="Escreva sua senha" required>
-            <button class="login__botao" type="submit" id="login__botao">Enviar</button>
+            <button onclick="replaceLocation()" class="login__botao" type="submit" id="login__botao">Enviar</button>
+            <script>
+                function replaceLocation() {
+          
+                    // Replace the current location
+                    // with new location
+                    var newloc = "./produtos.html"
+                    window.location.replace(newloc);
+                }
+            </script>
         </form>
     
     </section>
