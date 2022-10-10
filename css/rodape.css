@@ -71,6 +71,7 @@
 }
 
 .rodape__form--botao{
+    font-family: var(--fonte-padrao);
     color: var(--branco);
     background-color: var(--azul-padrao);
     padding: 0.75rem;
