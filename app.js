@@ -1,28 +1,39 @@
-// const botao = document.querySelectorAll("#login__botao");
+const botao = document.getElementById("login__botao");
 
-// botao.addEventListener("click", replaceLocation());
-
-function replaceLocation() {
+botao.addEventListener("click", (event) => {
     const email = document.getElementById('email-login').value;
     const senha = document.getElementById('senha-login').value;
-    const newloc = "./produtos.html";
-
+    event.preventDefault();
     if (email == '') {
         alert("Inserir email");
     }
-    
     if (senha == '') {
         alert("Inserir senha");
     }
-
     if (email != '' && senha != ''){
-        // Replace the current location
-        // with new location
         location.href = "./produtos.html";
     }
 
-    //teste
-    location.href = "./produtos.html";
+})
+
+// function replaceLocation() {
+//     const email = document.getElementById('email-login').value;
+//     const senha = document.getElementById('senha-login').value;
+//     const newloc = "./produtos.html";
+
+//     if (email == '') {
+//         alert("Inserir email");
+//     }
     
-}
+//     if (senha == '') {
+//         alert("Inserir senha");
+//     }
+
+//     if (email != '' && senha != ''){
+//         preventDeafout()
+//         location.href = "./produtos.html";
+//     }
+
+    
+// }
 
